@@ -44,3 +44,9 @@ La pagina Eventi usa:
 - `assets/party-tarocchi-social-club.mp4`
 
 I nomi devono restare esattamente questi, minuscole comprese.
+
+
+V10:
+- aggiunto poster video Eventi: assets/party-poster.jpg
+- il video Eventi usa poster dedicato invece della foto duplicata della pagina.
+- cache aggiornata a tl-next-v10.
