@@ -33,3 +33,14 @@ Per farlo funzionare, carica nella cartella `assets` il file video con questo no
 `il-dono.mp4`
 
 Il poster del video è già impostato su `assets/dono.jpg`.
+
+
+## Video in assets
+
+La pagina Regala usa:
+- `assets/il-dono.mp4`
+
+La pagina Eventi usa:
+- `assets/party-tarocchi-social-club.mp4`
+
+I nomi devono restare esattamente questi, minuscole comprese.
