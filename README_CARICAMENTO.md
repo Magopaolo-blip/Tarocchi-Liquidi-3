@@ -23,18 +23,21 @@ Apri il sito pubblicato e premi `CTRL + F5`.
 Hero più forte, menu con Biblioteca, pagine interne sviluppate, CTA mobile WhatsApp, SEO base e sitemap.
 
 
-## Aggiornamento TL NEXT v5
+## Aggiornamento TL NEXT v6
 Interventi principali:
 - Homepage riprogettata con ritmo più premium e sezioni alternate.
 - Menu reso più commerciale: Consulto, Regala, Eventi, Aziende, Metodo, Biblioteca, Paolo.
 - Nuova sezione scura “Come nasce una Traccia”.
 - Traccia resa centro narrativo dell’esperienza.
 - Hero più immersiva in attesa della nuova immagine definitiva.
-- Cache CSS/JS aggiornata a tl-next-v5.
+- Cache CSS/JS aggiornata a tl-next-v6.
 
 
-## TL NEXT v5
+## TL NEXT v6
 - Font titoli aggiornato: più moderno, sobrio e meno teatrale.
 - Logo Tarocchi Liquidi inserito nell'hero al posto della goccia decorativa.
 - Spazio superiore della hero ridotto: titolo e foto partono più in alto.
-- Cache CSS/JS aggiornata a tl-next-v5.
+- Cache CSS/JS aggiornata a tl-next-v6.
+
+
+Aggiornamento v6: rimosse le gocce decorative interne alla homepage, compattata la hero e aggiornata la cache CSS/JS a tl-next-v6.
