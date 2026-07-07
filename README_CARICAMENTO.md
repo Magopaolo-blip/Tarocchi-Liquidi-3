@@ -1,16 +1,13 @@
-# Tarocchi Liquidi — TL NEXT v13
+# Tarocchi Liquidi — TL NEXT v15 controllato
 
-Versione aggiornata con copertine reali nella sezione Paolo.
+Correzioni v15:
+- sezione Libri nella pagina Paolo resa compatta;
+- tre libri in una fila orizzontale su desktop;
+- copertine ridotte a miniature;
+- seconda copertina errata rimossa;
+- Logos e Simboli inserito con card neutra provvisoria in attesa della copertina corretta;
+- cache aggiornata a tl-next-v15.
 
-## Modifiche principali
-- Inserite le copertine dei libri nella pagina `chi-sono.html`.
-- Le tre copertine sono in fila orizzontale su desktop.
-- Aggiunti i file immagine in `assets/`:
-  - `libro-tarot-metodo-arianna.jpg`
-  - `libro-metodo-arianna.jpg`
-  - `libro-guarda-la-carta.jpg`
-- Rimossi i placeholder grafici dei libri.
-- Aggiornata cache a `tl-next-v13`.
-
-## Caricamento
-Caricare tutti i file della cartella nella repository GitHub, mantenendo intatta la struttura delle cartelle.
+File video da mantenere/caricare manualmente in assets:
+- assets/il-dono.mp4
+- assets/party-tarocchi-social-club.mp4
