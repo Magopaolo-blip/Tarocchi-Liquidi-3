@@ -279,3 +279,58 @@ cite{display:block;margin-top:16px;color:var(--muted);font-style:normal;font-siz
   h1{letter-spacing:-.02em}
   h2{letter-spacing:-.01em}
 }
+
+
+/* TL NEXT v6 — pulizia gocce decorative e hero più compatta */
+.drop-mark,
+.hero-logo-mark{display:none!important}
+.hero-v4{padding:8px 0 42px}
+.hero-v4 .hero-grid{gap:42px}
+.hero-copy .eyebrow{margin-top:0}
+.section .narrow.center .eyebrow{margin-top:0}
+.why .shell.narrow.center,
+.reviews .shell.narrow.center,
+.final-cta .shell.narrow.center{padding-top:0}
+@media (max-width: 980px){
+  .hero-v4{padding:14px 0 44px}
+}
+@media (max-width: 640px){
+  .hero-v4{padding:18px 0 42px}
+}
+
+/* TL NEXT v7 — Tracce in città / QR landing */
+.quiet-footer-link{opacity:.72}
+.quiet-footer-link:hover{opacity:1}
+.trace-city-page{background:#fbfaf7}
+.qr-hero{position:relative;padding:72px 0 86px;background:linear-gradient(90deg,#fbfaf7 0%,#fbfaf7 55%,#f1eadf 55%,#f1eadf 100%);overflow:hidden}
+.qr-hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 78% 32%,rgba(159,45,45,.11),transparent 30%);pointer-events:none}
+.qr-grid{position:relative;z-index:1;display:grid;grid-template-columns:1fr .72fr;gap:74px;align-items:center}
+.qr-copy h1{font-size:clamp(56px,6.8vw,92px);max-width:650px}
+.qr-card{background:#111;color:#fff;padding:42px 42px 46px;border-radius:4px;box-shadow:0 28px 78px rgba(21,19,18,.16);min-height:500px;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden}
+.qr-card:before{content:"";position:absolute;inset:0;background:linear-gradient(150deg,rgba(255,255,255,.08),rgba(255,255,255,0) 42%),radial-gradient(circle at 82% 18%,rgba(159,45,45,.35),transparent 28%);pointer-events:none}
+.qr-card > *{position:relative;z-index:1}
+.qr-kicker{margin:0 0 22px;color:#d6a68b;text-transform:uppercase;letter-spacing:.22em;font-size:12px;font-weight:850}
+.qr-number{display:block;color:#d6a68b;font-size:13px;font-weight:900;letter-spacing:.2em;margin-bottom:20px}
+.qr-card h2{color:#fff;font-size:clamp(38px,4vw,58px);margin-bottom:24px}
+.qr-line{font-family:var(--display);font-size:clamp(24px,2.8vw,36px);line-height:1.16;color:#fff;margin:0 0 26px}
+.qr-note{color:#cfc4b6;font-size:17px;max-width:430px;margin:0}
+.qr-how .ritual-grid article{min-height:250px}
+.qr-continue{display:grid;grid-template-columns:.8fr 1.2fr;gap:68px;align-items:start}
+.qr-actions-panel{display:grid;gap:14px}
+.qr-action{display:block;background:#fff;border-top:1px solid var(--line);padding:24px 26px;transition:transform .2s ease, box-shadow .2s ease}
+.qr-action:hover{transform:translateY(-2px);box-shadow:0 18px 48px rgba(21,19,18,.08)}
+.qr-action strong{display:block;font-family:var(--display);font-size:28px;font-weight:400;color:var(--ink);margin-bottom:8px}
+.qr-action span{display:block;color:#554f48;font-size:16px}
+@media (max-width: 980px){
+  .qr-hero{background:#fbfaf7;padding:54px 0 68px}
+  .qr-grid,.qr-continue{grid-template-columns:1fr;gap:34px}
+  .qr-card{min-height:420px;padding:34px}
+}
+@media (max-width: 640px){
+  .qr-hero{padding:38px 0 54px}
+  .qr-copy h1{font-size:47px}
+  .qr-card{min-height:380px;padding:28px}
+  .qr-card h2{font-size:38px}
+  .qr-line{font-size:25px}
+  .qr-action strong{font-size:24px}
+}
