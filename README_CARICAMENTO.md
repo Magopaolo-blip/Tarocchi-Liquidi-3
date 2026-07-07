@@ -1,6 +1,6 @@
-# Tarocchi Liquidi — TL NEXT
+# Tarocchi Liquidi — TL NEXT v3
 
-Versione pulita del nuovo sito.
+Versione ottimizzata operativamente.
 
 ## Cosa caricare su GitHub
 Carica nella root della repository tutto il contenuto interno di questa cartella:
@@ -9,14 +9,15 @@ Carica nella root della repository tutto il contenuto interno di questa cartella
 - `css/`
 - `js/`
 - `assets/`
-- le pagine `.html`
+- tutte le pagine `.html`
 - `biblioteca/`
 - `robots.txt`
+- `sitemap.xml`
 
 Non caricare la cartella contenitore, ma solo il suo contenuto.
 
 ## Dopo il caricamento
 Apri il sito pubblicato e premi `CTRL + F5`.
 
-## Nota
-Le pagine interne sono già collegate, ma sono strutture iniziali. La home è la parte principale costruita in questa versione.
+## Modifiche principali
+Hero più forte, menu con Biblioteca, pagine interne sviluppate, CTA mobile WhatsApp, SEO base e sitemap.
