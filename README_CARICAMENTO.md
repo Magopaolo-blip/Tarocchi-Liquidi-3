@@ -50,3 +50,6 @@ V10:
 - aggiunto poster video Eventi: assets/party-poster.jpg
 - il video Eventi usa poster dedicato invece della foto duplicata della pagina.
 - cache aggiornata a tl-next-v10.
+
+
+V12: aggiunta sezione Libri nella pagina Paolo con tre collegamenti Amazon e dati strutturati Person/Book. Cache aggiornata a tl-next-v12.
