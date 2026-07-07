@@ -1,19 +1,16 @@
-# Tarocchi Liquidi — TL NEXT v16 controllato
+# Tarocchi Liquidi — TL NEXT v18
 
-Pacchetto completo.
+Versione controllata.
 
-Correzioni principali:
-- Sezione Paolo / Libri corretta.
-- Tre copertine in miniature, sulla stessa riga desktop.
-- Titolo corretto: Logos e Risonanza.
-- Copertina Logos e Risonanza inserita in assets.
-- Cache CSS aggiornata a tl-next-v16.
+Correzione principale:
+- pagina Paolo / chi-sono.html: i tre libri sono in una sola riga su desktop;
+- copertine trasformate in miniature uniformi;
+- descrizioni e link Amazon sotto ogni copertina;
+- titolo corretto: Logos e Risonanza.
 
-File copertine:
-- assets/libro-tarot-metodo-arianna.jpg
-- assets/libro-logos-e-risonanza.png
-- assets/libro-guarda-la-carta.jpg
+File miniature usati:
+- assets/thumb-libro-tarot-metodo-arianna.jpg
+- assets/thumb-libro-logos-e-risonanza.jpg
+- assets/thumb-libro-guarda-la-carta.jpg
 
-Video da mantenere/caricare manualmente in assets se presenti:
-- assets/il-dono.mp4
-- assets/party-tarocchi-social-club.mp4
+Nota: dopo il caricamento su GitHub, aggiornare la pagina con Ctrl+F5 o svuotare cache browser.
