@@ -6,7 +6,7 @@ Versione pronta per GitHub Pages.
 - Homepage ottimizzata con hero compatta, font più sobrio e ritmo visivo pulito.
 - Pagine: Consulto, Regala, Eventi, Aziende, Metodo, Biblioteca, Paolo, Privacy.
 - Pagina semi-nascosta per campagna QR: `tracce.html`.
-- Cache aggiornata a `tl-next-v7`.
+- Cache aggiornata a `tl-next-v8`.
 
 ## Pagina QR / Tracce in città
 La pagina `tracce.html` non è nel menu principale ed è impostata con `noindex`.
@@ -24,3 +24,12 @@ Se manca il parametro `a`, la pagina mostra automaticamente una Traccia del gior
 
 ## Caricamento
 Caricare tutti i file nella root della repository GitHub Pages, sostituendo quelli esistenti.
+
+
+## Nota video Il Dono
+La pagina `il-dono.html` contiene già il blocco video.
+Per farlo funzionare, carica nella cartella `assets` il file video con questo nome esatto:
+
+`il-dono.mp4`
+
+Il poster del video è già impostato su `assets/dono.jpg`.
