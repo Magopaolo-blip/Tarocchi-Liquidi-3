@@ -1,43 +1,26 @@
-# Tarocchi Liquidi — TL NEXT v3
+# Tarocchi Liquidi — TL NEXT v7
 
-Versione ottimizzata operativamente.
+Versione pronta per GitHub Pages.
 
-## Cosa caricare su GitHub
-Carica nella root della repository tutto il contenuto interno di questa cartella:
+## Cosa contiene
+- Homepage ottimizzata con hero compatta, font più sobrio e ritmo visivo pulito.
+- Pagine: Consulto, Regala, Eventi, Aziende, Metodo, Biblioteca, Paolo, Privacy.
+- Pagina semi-nascosta per campagna QR: `tracce.html`.
+- Cache aggiornata a `tl-next-v7`.
 
-- `index.html`
-- `css/`
-- `js/`
-- `assets/`
-- tutte le pagine `.html`
-- `biblioteca/`
-- `robots.txt`
-- `sitemap.xml`
+## Pagina QR / Tracce in città
+La pagina `tracce.html` non è nel menu principale ed è impostata con `noindex`.
+È pensata per QR code fisici, cartoline, biglietti, adesivi o inviti.
 
-Non caricare la cartella contenitore, ma solo il suo contenuto.
+URL principale:
+`https://www.tarocchiliquidi.it/tracce.html`
 
-## Dopo il caricamento
-Apri il sito pubblicato e premi `CTRL + F5`.
+URL con Arcano specifico:
+`https://www.tarocchiliquidi.it/tracce.html?a=0`
+...
+`https://www.tarocchiliquidi.it/tracce.html?a=21`
 
-## Modifiche principali
-Hero più forte, menu con Biblioteca, pagine interne sviluppate, CTA mobile WhatsApp, SEO base e sitemap.
+Se manca il parametro `a`, la pagina mostra automaticamente una Traccia del giorno.
 
-
-## Aggiornamento TL NEXT v6
-Interventi principali:
-- Homepage riprogettata con ritmo più premium e sezioni alternate.
-- Menu reso più commerciale: Consulto, Regala, Eventi, Aziende, Metodo, Biblioteca, Paolo.
-- Nuova sezione scura “Come nasce una Traccia”.
-- Traccia resa centro narrativo dell’esperienza.
-- Hero più immersiva in attesa della nuova immagine definitiva.
-- Cache CSS/JS aggiornata a tl-next-v6.
-
-
-## TL NEXT v6
-- Font titoli aggiornato: più moderno, sobrio e meno teatrale.
-- Logo Tarocchi Liquidi inserito nell'hero al posto della goccia decorativa.
-- Spazio superiore della hero ridotto: titolo e foto partono più in alto.
-- Cache CSS/JS aggiornata a tl-next-v6.
-
-
-Aggiornamento v6: rimosse le gocce decorative interne alla homepage, compattata la hero e aggiornata la cache CSS/JS a tl-next-v6.
+## Caricamento
+Caricare tutti i file nella root della repository GitHub Pages, sostituendo quelli esistenti.
